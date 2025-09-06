@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalden's Archive</title>
+    <link rel="stylesheet" href="archive.css">
+    <script src="jsFiles/archive.js" defer></script>
+</head>
+
+<body>
+    <a href="index.html"><img class="downBtn" src="images/down.svg.svg"></a>
+    <div class="container">
+        <header class="header">
+            <h1 class="header-title">Project Archive</h1>
+            <p class="header-subtitle">A collection of past projects and publications</p>
+        </header>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="publications">Publications</button>
+            <button class="filter-btn" data-filter="tool">Tool</button>
+            <button class="filter-btn" data-filter="app">App</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr class="header-row">
+                        <th>Project</th>
+                        <th>Date/Year</th>
+                        <th>Tech Stack</th>
+                        <th>Type</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-category="web">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Personal Website V.2 <br>(Current)</br></span>
+                                <div class="project-description">
+                                    Latest, and current verison of my personal portfolio website dveloped in HTML, CSS,
+                                    and vanilla JavaScript.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">September 2025</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag css">CSS</span>
+                                <span class="tech-tag html">HTML</span>
+                                <span class="tech-tag javascript">JavaScript</span>
+                                <span class="tech-tag netlify">Netlify</span>
+
+                                <span class="tech-tag react">React</span>
+
+                            </div>
+                        </td>
+                        <td>Web</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://kydportfolio.netlify.app/" target="_blank"
+                                    class="link external-icon">Live</a>
+                                <a href="https://github.com/k-dor-ji/portfolio-website-v2" target="_blank"
+                                    class="link external-icon">Github</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr data-category="web">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Personal Website V.1</span>
+                                <div class="project-description">
+                                    First verison of my personal portfolio website.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">August 2024</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag css">CSS</span>
+                                <span class="tech-tag html">HTML</span>
+                                <span class="tech-tag javascript">JavaScript</span>
+                                <span class="tech-tag netlify">Netlify</span>
+
+                                <span class="tech-tag react">React</span>
+
+                            </div>
+                        </td>
+                        <td>Web</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://kydportfolio.netlify.app/" target="_blank"
+                                    class="link external-icon">Live</a>
+                                <a href="https://github.com/k-dor-ji/personal-website" target="_blank"
+                                    class="link external-icon">Github</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr data-category="tool">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Maritime AI Navigator</span>
+                                <div class="project-description">
+                                    Advanced collision avoidance system using reinforcement learning for autonomous
+                                    vessel
+                                    navigation
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">July 2024</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag docker">Docker</span>
+                                <span class="tech-tag python">Python</span>
+                                <span class="tech-tag tensorFlow">TensorFlow</span>
+                            </div>
+                        </td>
+                        <td>Tool</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://drive.google.com/file/d/16IPxcenmWG3W7f1WzXyQXWzh76G1suGQ/view?usp=sharing"
+                                    target="_blank" class="link external-icon">Simulation</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr data-category="app">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Univision: AR Campus Navigation App</span>
+                                <div class="project-description">
+                                    An AR navigation app built in Unity that overlays a scanned 3D model of Manhattan
+                                    University’s campus onto the user’s real-world position via QR code. Designed to
+                                    help new students explore classrooms and campus landmarks interactively.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">May 2024</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag cSharp">C#</span>
+                                <span class="tech-tag html">HTML</span>
+                                <span class="tech-tag python">Python</span>
+                                <span class="tech-tag unity">Unity</span>
+                            </div>
+                        </td>
+                        <td>App</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://github.com/Wilber158/Uni-Vision" target="_blank"
+                                    class="link external-icon">GitHub</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr data-category="publications tool">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Semantic-based Quality Control</span>
+                                <div class="project-description">
+                                    Developed a Word2Vec-based program to analyze medical terminology and detect
+                                    semantic
+                                    gaps in SNOMED CT using PUBMED data, enhancing consistency and improving EHR
+                                    communication.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">May 2024</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag python">Python</span>
+                            </div>
+                        </td>
+                        <td>Publications / Tool</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://github.com/k-dor-ji/snomed_archive" target="_blank"
+                                    class="link external-icon">GitHub</a>
+                                <a href="documents/snowmedPublication.pdf" target="_blank"
+                                    class="link external-icon">Article</a>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr data-category="web">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Weather Application</span>
+                                <div class="project-description">
+                                    A responsive web app built to deliver
+                                    real-time weather data and 7-day forecasts for global cities. It features dynamic
+                                    search, current conditions, and forecast
+                                    visualization powered by the OpenWeather API.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">November 2023</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag css">CSS</span>
+                                <span class="tech-tag html">HTML</span>
+                                <span class="tech-tag javascript">JavaScript</span>
+                                <span class="tech-tag react">React</span>
+                            </div>
+                        </td>
+                        <td>Web</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://github.com/k-dor-ji/weather-app-project" target="_blank"
+                                    class="link external-icon">GitHub</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr data-category="tool">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Company Database Project</span>
+                                <div class="project-description">
+                                    A structured SQL database designed exclusively through Python for managing
+                                    operations at a pet retail company.
+                                    It models core entities with clearly defined relationships and keys to ensure data
+                                    integrity and operational traceability.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">April 2023</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag python">Python</span>
+                                <span class="tech-tag sql">SQL</span>
+                            </div>
+                        </td>
+                        <td>Tool</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://github.com/k-dor-ji/database-project" target="_blank"
+                                    class="link external-icon">GitHub</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr data-category="tool">
+                        <td class="project-cell">
+                            <div>
+                                <span class="project-name">Instructor Database Project</span>
+                                <div class="project-description">
+                                    A lightweight GUI tool built with Tkinter and SQLite3 to view and manage university
+                                    instructor and department records. Supports data retrieval and entry through a
+                                    user interface system.
+                                </div>
+                            </div>
+                        </td>
+                        <td class="year">April 2023</td>
+                        <td>
+                            <div class="tech-stack">
+                                <span class="tech-tag python">Python</span>
+                            </div>
+                        </td>
+                        <td>Tool</td>
+                        <td>
+                            <div class="links">
+                                <a href="https://github.com/k-dor-ji/python_instructorDB" target="_blank"
+                                    class="link external-icon">GitHub</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+</body>
+
+</html>

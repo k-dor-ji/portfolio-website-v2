@@ -222,6 +222,26 @@
      color: #68217a;
  }
 
+ .tech-tag.wazuh {
+     border-color: #d81b60;
+     color: #d81b60;
+ }
+
+ .tech-tag.linux {
+     border-color: #b48b00;
+     color: #b48b00;
+ }
+
+ .tech-tag.siem {
+     border-color: #7cb342;
+     color: #7cb342;
+ }
+
+ .tech-tag.active-directory {
+     border-color: #5e548e;
+     color: #5e548e;
+ }
+
  .date {
      color: #888;
      font-size: 0.85rem;

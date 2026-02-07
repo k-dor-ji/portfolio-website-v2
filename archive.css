@@ -242,6 +242,21 @@
      color: #5e548e;
  }
 
+ .tech-tag.powerbi {
+     border-color: #f2c811;
+     color: #f2c811;
+ }
+
+ .tech-tag.excel {
+     border-color: #107c41;
+     color: #107c41;
+ }
+
+ .tech-tag.kaggle {
+     border-color: #20beff;
+     color: #20beff;
+ }
+
  .date {
      color: #888;
      font-size: 0.85rem;

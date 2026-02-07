@@ -65,4 +65,4 @@ The portfolio includes a comprehensive [Project Archive](https://kaldendorji.net
 - Minimal, professional layout
 
 
-*Last Updated: September 2025*
+*Last Updated: February 2026*
